@@ -5,7 +5,7 @@ import Body from './Body';
 const Card = (props) => {
   return (
     <>
-      <Header profileImg={props.commentObject.profileImg}/>
+      <Header profileImg={props.commentObject.profileImg} username={props.commentObject.username}/>
       <Body />
     </>
   );
