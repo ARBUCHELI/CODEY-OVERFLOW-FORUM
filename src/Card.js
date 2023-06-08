@@ -6,7 +6,7 @@ const Card = (props) => {
   return (
     <>
       <Header profileImg={props.commentObject.profileImg} username={props.commentObject.username}/>
-      <Body />
+      <Body comment={props.commentObject.comment}/>
     </>
   );
 }
